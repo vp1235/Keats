@@ -1,0 +1,79 @@
+*.py[cod]
+
+flask_session
+
+# C extensions
+*.so
+
+.DS_Store
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+#bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+metricaltree/Stanford Library
+metricaltree/Text Book
+metricaltree/Pickle Jar
+results/
+corpora/*
+!corpora/corppoetry_fi/
+!corpora/corppoetry_en/
+
+venv/
+
+*tts-cache*
+*.lprof
+.coverage*
+notebooks/dev
+.eggs
+site
+/.quarto/
+# docs/*
+# docs/**
+
+# Ignore everything in qdocs
+docs/*
+
+# But allow these specific items
+!docs/*.qmd
+!docs/_quarto.yml
+!docs/reference/
+!docs/reference/**
+
+# Quarto output directory (if it's inside qdocs)
+docs/_build/
+
+# Quarto cache (if you're using caching and it's inside qdocs)
+docs/_cache/
+
+prosodic/lib/panphon/doc
+venv*
+profile_output*
+.venv
